@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./MyFont.ttf') format("'tff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 30px;
+    background-color: antiquewhite;
+    margin-bottom: 25px;
+}
+
+.home {
+    padding-right: 10px;
+}
+
+.contact {
+    padding-left: 15px;
+    padding-right: 10px
+}
+
+.menu {
+    padding-left: 15px;
+    padding-right: 10px
+}
+
+h1 {
+    text-align: center;
+    font-family: "MyFont";
+    font-weight: 500;
+    font-style: normal;
+}
+
+.content {
+    background-image: url(Restaurant_Nasinneula.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+.main_nav {
+    display: flex;
+    justify-content: center;
+}
+
+.cosasdetabla {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    font-family: "MyFont";
+    font-size: 14px;
+}
+
+.opening {
+    font-family: "MyFont";
+    font-size: 22px;
+    justify-content: center;
+
+}
+
+p {
+    font-family: "MyFont";
+    font-size: 20px;
+}
+
+td {
+    padding-bottom: 4px;
+}
+
+.form {
+    display: grid;
+    padding-bottom: 25px;
+
+}
+
+.contact_page {
+    background-image: url("./imagen2.jpg");
+    width: 100vw;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.contact_content {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-bottom: 310px;
+    margin-top: 60px;
+
+}
+
+.marcadeagua {
+    position: relative;
+    top: -30px;
+    left: 150px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 15px;
+    padding-top: 870px;
+    margin-left: -250px;
+}
+
+.menuctn {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: aliceblue;
+}
+
+.picdiv {
+    display: flex;
+    font-size: 19px;
+    color: aliceblue;
+    margin-left: 950px;
+    margin-top: -49px;
+}
+
+.menupg {
+    background-image: url(./restaurantmenu.jpg);
+    height: 327vh;
+    width: 108vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 24px;
+}
